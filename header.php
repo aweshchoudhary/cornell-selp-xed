@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo the_title(); ?></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <?php wp_head(); ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/global.css">
+</head>
+
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
+
+    <?php
+    $primary_header = get_field("primary_header", "option");
+    ?>
+
+    <header>
+        <div class="md:px-28 px-5 py-2 bg-primary text-right">
+            <a href="#" class="text-white hover:text-white/70 hover:underline transition-all">Refer and Earn</a>
+        </div>
+        <div class="flex items-center justify-between md:px-28 px-5 py-4 md:gap-0 gap-20">
+            <a aria-label="goto home page" href="/">
+                <figure class="w-[80px]">
+                    <?php echo wp_get_attachment_image($primary_header["main_logo"], "medium", false, [
+                        "loading" => "eager",
+                        "class" => "image-contain",
+                    ]); ?>
+                    <figcaption class="sr-only"><?php echo wp_get_attachment_caption($primary_header["main_logo"]); ?></figcaption>
+                </figure>
+            </a>
+            <a aria-label="goto home page" href="/">
+                <figure class="w-[70px]">
+                    <?php echo wp_get_attachment_image($primary_header["secondary_logo"], "medium", false, [
+                        "loading" => "eager",
+                        "class" => "image-contain",
+                    ]); ?>
+                    <figcaption class="sr-only"><?php echo wp_get_attachment_caption($primary_header["secondary_logo"]); ?></figcaption>
+                </figure>
+            </a>
+        </div>
+        <div class="py-3 text-center bg-primary">
+            <h2 class="capitalize mb-0 font-semibold text-white"><?php echo $primary_header["title"] ?></h2>
+        </div>
+    </header>
+
+    <main>
