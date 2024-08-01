@@ -125,6 +125,15 @@
         @apply align-baseline text-sm;
     }
 }
+
+/* Button Sytles */
+.play-btn {
+    @apply rounded-full md:size-[80px] size-[50px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
+}
+.play-btn-sm {
+    @apply rounded-full md:size-[50px] size-[30px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
+}
+
 .table-container {
     @apply w-full overflow-x-auto !important;
 }
