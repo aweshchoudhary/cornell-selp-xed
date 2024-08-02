@@ -38,7 +38,6 @@ function load_slick_carousel_scripts()
 
         // Add custom inline script
         wp_add_inline_script('slick-js', "
-
             jQuery(document).ready(function($) {
                 $('.slick-slider-faculty').slick({
                     dots: false,

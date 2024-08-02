@@ -126,6 +126,14 @@
     }
 }
 
+.modal {
+    display: none;
+}
+
+.modal.is-open {
+    display: block;
+}
+
 /* Button Sytles */
 .play-btn {
     @apply rounded-full md:size-[80px] size-[50px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
@@ -186,7 +194,10 @@ select {
 }
 
 .slick-btn {
-    @apply absolute top-1/2 capitalize -translate-y-1/2 md:text-5xl text-3xl md:p-3 p-2 z-[99];
+    @apply absolute top-1/2 capitalize -translate-y-1/2 rounded-full bg-primary text-white md:size-12 size-10 flex items-center justify-center z-[99];
+}
+.slick-btn svg {
+    @apply md:text-4xl text-3xl;
 }
 
 .wpforms-field-label {
