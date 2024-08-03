@@ -1298,7 +1298,7 @@ get_header();
 
             <div class="md:space-y-10 space-y-5">
                 <div class="flex items-center md:flex-row flex-col-reverse md:gap-10 gap-5">
-                    <div class="aspect-video h-full bg-gray-100 flex-1">
+                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                             <?php $image_id = 7200;
                             echo wp_get_attachment_image($image_id, "large", false, [
@@ -1318,7 +1318,7 @@ get_header();
                     </h3>
                 </div>
                 <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10 gap-5">
-                    <div class="aspect-video h-full bg-gray-100 flex-1">
+                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                             <?php $image_id = 7200;
                             echo wp_get_attachment_image($image_id, "large", false, [
@@ -1338,7 +1338,7 @@ get_header();
                     </h3>
                 </div>
                 <div class="flex items-center md:flex-row flex-col-reverse md:gap-10 gap-5">
-                    <div class="aspect-video h-full bg-gray-100 flex-1">
+                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                             <?php $image_id = 7200;
                             echo wp_get_attachment_image($image_id, "large", false, [
@@ -1375,10 +1375,10 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="relative md:h-[800px] h-[400px] my-20 px-0 section-y">
+    <section class="relative md:h-[800px] h-[550px] my-20 px-0 section-y">
         <div>
             <h2 class="text-center">Certificate</h2>
-            <figure class="mx-auto w-1/2 h-full relative z-0">
+            <figure class="mx-auto md:w-1/2 w-11/12 h-full relative z-0">
                 <?php $image_id = 755;
                 echo wp_get_attachment_image($image_id, "large", false, [
                     "loading" => "lazy",
@@ -1387,7 +1387,7 @@ get_header();
                 <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
             </figure>
         </div>
-        <div class="text-white flex items-end section absolute -z-10 bottom-0 right-0 md:rounded-bl-[100px] h-1/3 md:w-11/12 bg-primary">
+        <div class="text-white flex items-end section absolute -z-10 bottom-0 right-0 md:rounded-bl-[100px] md:h-1/3 h-2/3 md:w-11/12 bg-primary">
             <div class="text-sm">
                 <p>
                     <em>
@@ -1402,7 +1402,7 @@ get_header();
     <section>
         <div>
             <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10 gap-5">
-                <div class="aspect-video h-full bg-gray-100 flex-1">
+                <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                     <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                         <?php $image_id = 7200;
                         echo wp_get_attachment_image($image_id, "large", false, [
@@ -1687,7 +1687,7 @@ get_header();
     </section>
     <section>
         <div>
-            <div class="border-2 rounded-xl border-primary border-solid mx-auto w-1/2 md:p-10 p-5 text-center">
+            <div class="border-2 rounded-xl border-primary border-solid mx-auto md:w-1/2 md:p-10 p-5 text-center">
                 <h2>Who Should Apply?</h2>
                 <p>Cornell SELP is meticulously crafted to guide CXOs, business owners, and seasoned leaders through today's evolving business landscape, empowering them to excel amidst disruption and emerging challenges, with a key focus on their personalized tracks</p>
 
