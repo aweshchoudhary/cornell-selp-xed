@@ -9,7 +9,7 @@
         --secondary: 195 100% 40%;
         --third: 0 0% 39%;
         --pred: 8 62% 37%;
-        --light-gray: 0 0% 94%;
+        --light-gray: 0 0% 81%;
         --border: 0 0% 92%;
         --wpforms-label-error-color: #ff5757 !important;
     }
@@ -37,7 +37,7 @@
     }
 
     h2 {
-        @apply md:text-4xl text-primary mb-5 sm:text-2xl text-2xl;
+        @apply md:text-4xl font-medium text-primary mb-8 sm:text-2xl text-2xl;
     }
 
     h3 {
@@ -125,21 +125,16 @@
         @apply align-baseline text-sm;
     }
 }
-
-.modal {
-    display: none;
-}
-
-.modal.is-open {
-    display: block;
-}
-
 /* Button Sytles */
 .play-btn {
     @apply rounded-full md:size-[80px] size-[50px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
 }
 .play-btn-sm {
     @apply rounded-full md:size-[50px] size-[30px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
+}
+
+.modal-box {
+    @apply md:p-10 p-5 md:max-w-[60%];
 }
 
 .table-container {

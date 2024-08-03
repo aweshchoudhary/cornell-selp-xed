@@ -44,9 +44,6 @@ function load_slick_carousel_scripts()
                     arrows: false,
                     infinite: true,
                     speed: 500,
-                    autoplay: false,
-                    autoplaySpeed: 2500,
-                    adaptiveHeight: true,
                     lazyLoad: 'ondemand',
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -61,14 +58,16 @@ function load_slick_carousel_scripts()
                             breakpoint: 600,
                             settings: {
                                 slidesToShow: 2,
-                                slidesToScroll: 1
+                                slidesToScroll: 1,
+                                adaptiveHeight: true,
                             }
                         },
                         {
                             breakpoint: 480,
                             settings: {
                                 slidesToShow: 1,
-                                slidesToScroll: 1
+                                slidesToScroll: 1,
+                                adaptiveHeight: true,
                             }
                         }
                     ]
@@ -87,9 +86,6 @@ function load_slick_carousel_scripts()
                     arrows: false,
                     infinite: true,
                     speed: 500,
-                    autoplay: false,
-                    autoplaySpeed: 2500,
-                    adaptiveHeight: true,
                     lazyLoad: 'ondemand',
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -104,14 +100,16 @@ function load_slick_carousel_scripts()
                             breakpoint: 600,
                             settings: {
                                 slidesToShow: 2,
-                                slidesToScroll: 1
+                                slidesToScroll: 1,
+                                adaptiveHeight: true,
                             }
                         },
                         {
                             breakpoint: 480,
                             settings: {
                                 slidesToShow: 1,
-                                slidesToScroll: 1
+                                slidesToScroll: 1,
+                                adaptiveHeight: true,
                             }
                         }
                     ]

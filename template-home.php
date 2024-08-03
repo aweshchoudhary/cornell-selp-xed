@@ -103,8 +103,8 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="bg-third">
-        <h2 class="text-center text-white">
+    <section class="bg-light-gray ">
+        <h2 class="text-center ">
             Program Benefits
         </h2>
 
@@ -158,7 +158,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <div>
-                    <p class="font-medium text-xl text-white">4 Online modules (8 weeks) </p>
+                    <p class="font-medium text-xl">4 Online modules (8 weeks) </p>
                     <ul>
                         <li>Each Online Module Duration: 2 weeks</li>
                         <li>Includes 8 faculty interactions </li>
@@ -175,7 +175,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <div>
-                    <p class="font-medium text-xl text-white">2 personalized track-based modules (4 weeks)</p>
+                    <p class="font-medium text-xl">2 personalized track-based modules (4 weeks)</p>
                     <ul>
                         <li>(Choose among 10+ modules) </li>
                         <li>Includes 4 faculty interactions </li>
@@ -1088,7 +1088,7 @@ get_header();
 
             <div class="slick-slider-faculty section-x relative z-0">
                 <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Allan_Filipowicz.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 752;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1100,11 +1100,11 @@ get_header();
                     <p class="mb-2 text-left text-sm">Clinical Professor of Management and Organisations</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Karan_Girotra.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 753;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1113,11 +1113,11 @@ get_header();
                         and Innovation</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Gautam_Ahuja.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 751;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1125,11 +1125,11 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Management and Organisations</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Barbara_Mink.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 749;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1137,11 +1137,11 @@ get_header();
                     <p class="mb-2 text-left text-sm">Senior Lecturer of Management Communication</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Justin_Johnson.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 750;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1149,11 +1149,11 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Glen_Dowell.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 748;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1161,11 +1161,11 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Risa_Mish.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 747;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1174,11 +1174,11 @@ get_header();
                         Management</p>
                 </div>
                 <div class="p-6 h-full">
-                    <figure class="bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="Derek_Cabrerra.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 746;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
-                            "class" => "image-cover",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                     </figure>
@@ -1292,6 +1292,722 @@ get_header();
             </p>
         </div>
     </section>
+    <section>
+        <div>
+            <h2 class="text-center">Hear From Faculty</h2>
+
+            <div class="md:space-y-10 space-y-5">
+                <div class="flex items-center md:flex-row flex-col-reverse md:gap-10 gap-5">
+                    <div class="aspect-video h-full bg-gray-100 flex-1">
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
+                            <?php $image_id = 7200;
+                            echo wp_get_attachment_image($image_id, "large", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain border",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                            <div class="play-btn-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                                </svg>
+                            </div>
+                        </figure>
+                    </div>
+                    <h3 class="text-center flex-1">
+                        Prof. Jeremy Kagan on <br> Entrepreneurial Mindset for Organizations
+                    </h3>
+                </div>
+                <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10 gap-5">
+                    <div class="aspect-video h-full bg-gray-100 flex-1">
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
+                            <?php $image_id = 7200;
+                            echo wp_get_attachment_image($image_id, "large", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain border",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                            <div class="play-btn-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                                </svg>
+                            </div>
+                        </figure>
+                    </div>
+                    <h3 class="text-center flex-1">
+                        Dean Vishal Gaur and other <br> Faculty on the Cornell Campus
+                    </h3>
+                </div>
+                <div class="flex items-center md:flex-row flex-col-reverse md:gap-10 gap-5">
+                    <div class="aspect-video h-full bg-gray-100 flex-1">
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
+                            <?php $image_id = 7200;
+                            echo wp_get_attachment_image($image_id, "large", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain border",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                            <div class="play-btn-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                                </svg>
+                            </div>
+                        </figure>
+                    </div>
+                    <h3 class="text-center flex-1">
+                        Prof. Glen Dowell on Leading <br> Through Sustainability
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-y px-0">
+        <div class="flex justify-end">
+            <div class="section bg-primary md:rounded-tl-[100px] text-white md:w-11/12">
+                <h2 class="text-white">Cornell Executive Alumni Status</h2>
+                <ul>
+                    <li>Access to Cornell SELP Executive Alumni Portal</li>
+                    <li>2-year access to On-Demand Library of 2000+ courses, with curated learning paths to continue your learning journey</li>
+                    <li>Join the exclusive LinkedIn group for SELP cohorts</li>
+                    <li>Invitations to in-person events, including Dubai modules for subsequent cohorts</li>
+                    <li>Invitations to virtual sessions, including Cornell Keynote series and other guest speakers</li>
+                    <li>30% fee waiver on all Cornell online certificate programs for 2 years</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="relative md:h-[800px] h-[400px] my-20 px-0 section-y">
+        <div>
+            <h2 class="text-center">Certificate</h2>
+            <figure class="mx-auto w-1/2 h-full relative z-0">
+                <?php $image_id = 755;
+                echo wp_get_attachment_image($image_id, "large", false, [
+                    "loading" => "lazy",
+                    "class" => "image-contain",
+                ]); ?>
+                <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+            </figure>
+        </div>
+        <div class="text-white flex items-end section absolute -z-10 bottom-0 right-0 md:rounded-bl-[100px] h-1/3 md:w-11/12 bg-primary">
+            <div class="text-sm">
+                <p>
+                    <em>
+                        Upon successful completion of the program, you will earn a certificate of completion from Cornell University
+                        <br>
+                        Note: Certificate image is for illustrative purposes only and may be subject to change at the discretion of Cornell University.
+                    </em>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10 gap-5">
+                <div class="aspect-video h-full bg-gray-100 flex-1">
+                    <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
+                        <?php $image_id = 7200;
+                        echo wp_get_attachment_image($image_id, "large", false, [
+                            "loading" => "lazy",
+                            "class" => "image-contain border",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                        <div class="play-btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                            </svg>
+                        </div>
+                    </figure>
+                </div>
+                <h3 class="text-center flex-1">
+                    Take a virtual tour of NYC's New Tech Hub - Cornell Tech Campus
+                </h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2 class="text-center">
+                Application Process
+            </h2>
+
+            <div>
+                <p>When considering applications for this program, the Admissions Committee seeks a balance of function industry representation, as well as candidates’ professional experience and current organizational responsibilities.</p>
+
+                <h3>The Admissions Committee assesses your:</h3>
+                <ul>
+                    <li>Application responses</li>
+                    <li>CV or LinkedIn profile</li>
+                    <li>Interaction with Admissions Panel</li>
+                </ul>
+
+                <p>The interaction allows the Admissions Committee to further evaluate your candidature for the program. We may choose to have a one-on-one discussion with candidates on a case-to-case basis to assess interpersonal and communication skills, work experience, career focus and motivations for pursuing this program.</p>
+
+                <p>The interaction will be conducted online. The time and date will be communicated to you via email.</p>
+            </div>
+
+            <div class="flex flex-wrap">
+                <div class="md:basis-1/4 sm:basis-1/2 px-2.5 py-5">
+                    <div class="md:size-14 size-10 mb-10 md:text-2xl text-xl font-semibold flex items-center justify-center rounded-full bg-primary text-white">
+                        1
+                    </div>
+
+                    <h4>APPLICATION SUBMISSION</h4>
+                    <p>Answer the questions and submit your CV/upload LinkedIn profile</p>
+                </div>
+                <div class="md:basis-1/4 sm:basis-1/2 px-2.5 py-5">
+                    <div class="md:size-14 size-10 mb-10 md:text-2xl text-xl font-semibold flex items-center justify-center rounded-full bg-primary text-white">
+                        2
+                    </div>
+
+                    <h4>APPLICATION REVIEW</h4>
+                    <p>Admissions Committee will verify your application and evaluate it for eligibility and fit to the program</p>
+                </div>
+                <div class="md:basis-1/4 sm:basis-1/2 px-2.5 py-5">
+                    <div class="md:size-14 size-10 mb-10 md:text-2xl text-xl font-semibold flex items-center justify-center rounded-full bg-primary text-white">
+                        3
+                    </div>
+
+                    <h4>ONLINE INTERACTION</h4>
+                    <p>Select candidates to be called for an online Interaction with the Admissions Panel</p>
+                </div>
+                <div class="md:basis-1/4 sm:basis-1/2 px-2.5 py-5">
+                    <div class="md:size-14 size-10 mb-10 md:text-2xl text-xl font-semibold flex items-center justify-center rounded-full bg-primary text-white">
+                        4
+                    </div>
+
+                    <h4>RESULT</h4>
+                    <p> Receive a decision on your program application via an email from the Admissions Committee within 5 working days </p>
+                </div>
+            </div>
+            <div>
+                <p>
+                    We do not discriminate against any person on the basis of race, colour, sex or sexual orientation, gender identity, religion, age, national or ethnic origin, political beliefs, veteran status, or disability in admission to, access to, treatment in, or employment in this program.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-y px-0">
+        <div class="section-x">
+            <h2 class="text-center">Testimonials</h2>
+        </div>
+        <div class="relative">
+            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev md:left-12 left-2 slick-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
+                </svg>
+            </button>
+            <button name="slide next" aria-label="slide next" class="faculty-slick-next md:right-12 right-2 slick-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
+                </svg>
+            </button>
+
+            <div class="slick-slider-faculty section-x relative z-0">
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 764;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Bonny Loo</p>
+                            <p class="mb-2 text-sm">Chief Legal Counsel<br> Hospital Authority<br> Kowloon, Hong Kong</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 763;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"Great lecture on how to get things done and negotiation. The class was great and the topics were clearly articulated and delivered"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Evi Afiatin</p>
+                            <p class="mb-2 text-sm">CFO<br> PT. Kawasan Industri Terpadu Batang<br> Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 762;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"Prof. Allan is a fantastic professor. He kept us engrossed in learning new concepts throughout which is a great thing"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Kiran Bhat</p>
+                            <p class="mb-2 text-sm">Managing Director<br> Xebec Communications Pvt.Ltd<br> Pune, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 761;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"It has been a wonderful experience. Gained a whole different perspective towards various challenges. It really helped to learn more"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Rajesh Kachave</p>
+                            <p class="mb-2 text-sm">Chief Business Officer<br> Avanse Financial Services<br> Mumbai, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 760;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"Loved this experience. The professors have intense enthusiasm and a wealth of knowledge. I am looking forward to reflecting on the learnings and putting it into practice"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Sara McAleese</p>
+                            <p class="mb-2 text-sm">Director - Strategy and Transformation<br> Grant Thornton<br> Dubai, UAE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 759;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"The Cornell Senior Executive Leadership Program is very intensive and mind-filling. Got a lot of knowledge in the area that I was not too savvy: Digital & Technology. The Cornell campus experience was very challenging, yet stimulating."</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Harold Tjiptadjaja</p>
+                            <p class="mb-2 text-sm">Managing Director Investment Banking<br> Mandiri Sekuritas<br> Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 758;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"An enriching experience at the Cornell campus. Interacted with global participants. Learned through simulations, case studies and interactions with esteemed Cornell professors on the integration of Digital, Strategy, Tech, Supply Chain and Sustainability. Truly empowering!"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Samar Mohamed Omar Al Saggaf</p>
+                            <p class="mb-2 text-sm">Professor<br> King Abdulaziz University<br> Jeddah, Saudi Arabia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 757;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"I am happy to be part of Cornell's Senior Executive Leadership Program 2022- 2023. Day 1 at Cornell New York campus was an amazing start with insights on Strategy and Digital Technology."</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Manoj Divakaran</p>
+                            <p class="mb-2 text-sm">Head of Client Reporting and Business Metrics<br> Alpha Alternatives<br> Mumbai, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 h-full md:h-[522px]">
+                    <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
+                        <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
+                            <?php $image_id = 756;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure>
+
+                        <div class="text-xl font-medium">
+                            <p class="text-xl"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Allan Filipowicz</p>
+                            <p class="mb-2 text-sm">Clinical Professor of Management and Organisations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="border-2 rounded-xl border-primary border-solid mx-auto w-1/2 md:p-10 p-5 text-center">
+                <h2>Who Should Apply?</h2>
+                <p>Cornell SELP is meticulously crafted to guide CXOs, business owners, and seasoned leaders through today's evolving business landscape, empowering them to excel amidst disruption and emerging challenges, with a key focus on their personalized tracks</p>
+
+                <ul class="list-none text-left">
+                    <li class="flex items-center gap-2">
+                        <figure class="aspect-square size-9 shrink-0">
+                            <?php $image_id = 765;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure> 10+ years of proven experience in leading high-performing teams or impactful projects
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <figure class="aspect-square size-9 shrink-0">
+                            <?php $image_id = 765;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure> A minimum of a graduate degree
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <figure class="aspect-square size-9 shrink-0">
+                            <?php $image_id = 765;
+                            echo wp_get_attachment_image($image_id, "medium", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        </figure> Country of residence at the time of enrolling must be Latin America, South Asia, Middle East, Africa, Far East
+                    </li>
+                </ul>
+                <a href="/eligibility" class="cbtn-primary mx-auto">Apply Now</a>
+            </div>
+            <p class="text-center mt-5">Cornell University is collaborating with XED to offer a portfolio of high-impact programs for senior leaders</p>
+        </div>
+        <div class="mt-10">
+            <h2 class="text-center">
+                Inquire for your organization
+            </h2>
+            <p>
+
+                We feel that taking this program with your colleagues facilitates communication and accelerates impact in your organization. This also helps in having meaningful discussions with each other.
+                <br><br>
+                Learn with your colleagues and friends. We offer special discounts for groups
+            </p>
+            <a href="/get-in-touch" class="mx-auto cbtn-outline">Get In Touch</a>
+        </div>
+    </section>
+
+    <dialog id="Allan_Filipowicz" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 752;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Allan Filipowicz
+                    </h3>
+                    <h5 class="text-third">
+                        Clinical Professor of Management and Organisations
+                    </h5>
+
+                    Allan Filipowicz is a Clinical Professor of Management and Organizations at the Samuel Curtis Johnson Graduate School of Management at Cornell University. Professor Filipowicz received his Ph.D. from Harvard University. He holds an MBA from The Wharton School, an MA in International Affairs from the University of Pennsylvania, and degrees in electrical engineering (MEng, BS) and economics (BA) from Cornell University. His professional experience includes banking (Bankers Trust, New York) and consulting, including running his own boutique consulting firm and four years with The Boston Consulting Group in Paris.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Karan_Girotra" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 753;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Karan Girotra
+                    </h3>
+                    <h5 class="text-third">
+                        Professor of Operations Technology and Innovation
+                    </h5>
+
+                    Karan Girotra is a Professor of Operations, Technology and Innovation at Cornell-Tech and the Samuel Curtis Johnson Graduate School of Management in the Cornell SC Johnson College of Business. He is the academic lead for the flagship studio-based education programs at Cornell Tech and is applying his research on innovation to help build a new model for graduate education. Prior to joining Cornell Tech, Karan held the Paul Dubrule Chair at INSEAD, earned a doctorate at the Wharton School and a bachelors degree from the Indian Institute of Technology, Delhi.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Derek_Cabrerra" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 746;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Derek Cabrerra
+                    </h3>
+                    <h5 class="text-third">
+                        Systems Scientist
+                    </h5>
+                    Derek Cabrera is an internationally known systems scientist who in 2021 was inducted as a Member of the International Academy for Systems and Cybernetic Sciences (IASCYS) for outstanding contributions to the field. He is the Faculty Director for the Graduate Certification Program in Systems Thinking, Modeling, and Leadership and is a senior scientist at Cabrera Research Lab. Cabrera has developed a suite of systems thinking tools for use in academia, business, and beyond including the first validated personal inventory of systems thinking.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Risa_Mish" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 747;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Risa Mish
+                    </h3>
+                    <h5 class="text-third">
+                        Professor of Practice and Management
+                    </h5>
+                    Risa Mish designed and teaches the MBA, EMBA, and Cornell-Tsinghua Core courses in Critical and Strategic Thinking, teaches elective courses in critical thinking and leadership, and was the founding faculty director of the Johnson Leadership Fellows program. Risa Mish serves as a keynote speaker and workshop leader at global, national, and regional conferences for corporations and trade associations in the consumer products, financial services, health care, high tech, media, and manufacturing industries
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Glen_Dowell" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 748;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Glen Dowell
+                    </h3>
+                    <h5 class="text-third">
+                        Professor of Management
+                    </h5>
+                    Glen Dowell is the Henrietta Johnson Louis Professor of Management and Associate Dean for Academic Affairs at the Johnson Graduate School of Management and Area Coordinator for the M&O Area at the SC Johnson College of Business. His researches are in the area of corporate sustainability, with a focus on firm environmental performance. He is a faculty affiliate for the Center for Sustainable Global Enterprise and is a faculty fellow at the Atkinson Center for a Sustainable Future.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Barbara_Mink" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 749;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Barbara Mink
+                    </h3>
+                    <h5 class="text-third">
+                        Senior Lecturer of Management Communication
+                    </h5>
+                    Barbara Mink is a management communication professional with a focus on intercultural communication, leadership, and persuasion. She teaches persuasive and informational writing for business purposes, as well as business presentations that are clear, concise, and compelling. Mink is also an active painter with an international presence.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Justin_Johnson" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 750;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Justin Johnson
+                    </h3>
+                    <h5 class="text-third">
+                        Professor of Management
+                    </h5>
+                    Professor Justin Johnson received his PhD in Economics from MIT and is currently the Deane W. Malott Professor of Management at the Johnson Graduate School of Management. Professor Johnson teaches Business Strategy to Executive MBA students. On four occasions he has received the EMBA Teaching Excellence Award, voted on by graduating EMBA students and awarded to one professor. In addition to his research, academic presentations, teaching, and executive development, Professor Johnson discusses his research and its relevance to current matters of interest with governmental bodies and other parties around the world, including the US Department of Justice, the US Federal Trade Commission, the EU Directorate General for Competition, the European Commission, and the UK Competition Authority.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    <dialog id="Gautam_Ahuja" class="modal">
+        <div class="modal-box">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                    </svg></button>
+            </form>
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 751;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-2">
+                        Gautam Ahuja
+                    </h3>
+                    <h5 class="text-third">
+                        Professor of Management and Organisations
+                    </h5>
+
+                    Gautam Ahuja is a Professor of Management and Organizations at the Samuel Curtis Johnson Graduate School of Management at Cornell University. Ahuja teaches strategy and competitive analysis. In 2016, Ahuja received the BPS Wiley Outstanding Educator Award for his lifetime teaching contributions. At Cornell, he has received the Cornell-Tech Best Professor Award as well as the Johnson Graduate School of Management’s Apple Award. His research interests include competitive analysis, technology and innovation, globalization, and the use of inter-organizational arrangements.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
 </article>
 
 
