@@ -514,7 +514,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('4PNUsD8wv3U', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 817;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -535,7 +535,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('XG60ORmjJYk', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 816;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -556,7 +556,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('sQ3_JpUO2P4', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 815;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -577,7 +577,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('9hjymVDqeNU', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 814;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -598,7 +598,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('fxXH5f8OU54', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 813;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -619,7 +619,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('DlXhXljDdeA', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 812;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -638,7 +638,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('8uoMwhkLkO8', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 811;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -659,7 +659,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('r3lsEUzFQTc', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 810;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -680,7 +680,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('MgC36CskSjc', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 809;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -701,7 +701,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('SncUi8m4FPY', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 808;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -722,7 +722,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('qQioifbq0i8', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 807;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -743,7 +743,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('P5MMUt8djMI', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 806;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -764,7 +764,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('VHBY_Fq2Lts', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 805;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -785,7 +785,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('G5bN5O6eTbk', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 804;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -806,7 +806,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('w2s4y2dFv10', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 803;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -827,7 +827,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('30raNV_3G9I', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 802;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
@@ -2229,6 +2229,9 @@ get_header();
         </form>
     </dialog>
 </article>
+<div class="overlay fixed bottom-0 left-0 z-[999] w-full bg-white/85 py-3 flex justify-center backdrop-blur">
+    <a href="/#get-brochure" class="cbtn-primary">Download Brochure</a>
+</div>
 
 
 
