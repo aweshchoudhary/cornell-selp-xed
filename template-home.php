@@ -842,8 +842,8 @@ get_header();
                 Graduation Ceremony at the Cornell campus, New York
             </h2>
 
-            <div class="flex flex-wrap">
-                <figure class="md:basis-4/5 basis-full px-3 py-5 mx-auto">
+            <div class="flex flex-wrap md:gap-0 gap-3">
+                <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 731;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -851,7 +851,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 730;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -859,7 +859,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 729;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -867,7 +867,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 728;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -875,7 +875,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 727;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -883,7 +883,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 726;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -891,7 +891,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 725;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -899,7 +899,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 724;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -907,7 +907,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 723;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -924,8 +924,8 @@ get_header();
                 The Global Cornell SELP Cohort
             </h2>
 
-            <div class="flex flex-wrap">
-                <figure class="md:basis-4/5 basis-full px-3 py-5 mx-auto">
+            <div class="flex flex-wrap md:gap-0 gap-3">
+                <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 735;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -933,7 +933,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-4/5 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 734;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -941,7 +941,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-4/5 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 733;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -958,8 +958,8 @@ get_header();
                 Alumni Mixer
             </h2>
 
-            <div class="flex flex-wrap">
-                <figure class="md:basis-4/5 basis-full px-3 py-5 mx-auto">
+            <div class="flex flex-wrap md:gap-0 gap-3">
+                <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 732;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -976,8 +976,8 @@ get_header();
                 Experience the vibrant Cornell Campus
             </h2>
 
-            <div class="flex flex-wrap">
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+            <div class="flex flex-wrap md:gap-0 gap-3">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 741;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -985,7 +985,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 740;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -993,7 +993,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 739;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1001,7 +1001,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 738;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1009,7 +1009,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 737;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1017,7 +1017,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 736;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1034,8 +1034,8 @@ get_header();
                 In-class sessions in Dubai
             </h2>
 
-            <div class="flex flex-wrap">
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+            <div class="flex flex-wrap md:gap-0 gap-3">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 745;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1043,7 +1043,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 744;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1051,7 +1051,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 743;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1059,7 +1059,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <figure class="md:basis-1/2 basis-full px-3 py-5 mx-auto">
+                <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
                     <?php $image_id = 742;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -1075,19 +1075,19 @@ get_header();
             <h2 class="text-center">Faculty</h2>
         </div>
         <div class="relative">
-            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev md:left-12 left-2 slick-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180" viewBox="0 0 24 24">
+            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev group md:left-12 left-2 slick-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180 group-hover:scale-125 transition-all" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
-            <button name="slide next" aria-label="slide next" class="faculty-slick-next md:right-12 right-2 slick-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+            <button name="slide next" aria-label="slide next" class="faculty-slick-next group md:right-12 right-2 slick-btn">
+                <svg class="group-hover:scale-125 transition-all" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
 
             <div class="slick-slider-faculty section-x relative z-0">
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Allan_Filipowicz.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 752;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1099,7 +1099,7 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Allan Filipowicz</p>
                     <p class="mb-2 text-left text-sm">Clinical Professor of Management and Organisations</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Karan_Girotra.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 753;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1112,7 +1112,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Operations Technology
                         and Innovation</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Gautam_Ahuja.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 751;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1124,7 +1124,7 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Gautam Ahuja</p>
                     <p class="mb-2 text-left text-sm">Professor of Management and Organisations</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Barbara_Mink.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 749;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1136,7 +1136,7 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Barbara Mink</p>
                     <p class="mb-2 text-left text-sm">Senior Lecturer of Management Communication</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Justin_Johnson.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 750;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1148,7 +1148,7 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Justin Johnson</p>
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Glen_Dowell.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 748;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1160,7 +1160,7 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Glen Dowell</p>
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Risa_Mish.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 747;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1173,7 +1173,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Practice and
                         Management</p>
                 </div>
-                <div class="p-6 h-full">
+                <div class="md:px-6 px-8 h-full">
                     <figure onclick="Derek_Cabrerra.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 746;
                         echo wp_get_attachment_image($image_id, "medium", false, [
@@ -1188,7 +1188,7 @@ get_header();
             </div>
         </div>
         <div class="section-x">
-            <p class="text-xs text-center">
+            <p class="text-xs text-center mt-8">
                 Indicative faculty, subject to change based on availability and university guidelines
             </p>
         </div>
@@ -1200,20 +1200,20 @@ get_header();
             </h2>
         </div>
         <div class="relative">
-            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev md:left-12 left-2 slick-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180" viewBox="0 0 24 24">
+            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev group md:left-12 left-2 slick-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180 group-hover:scale-125 transition-all" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
-            <button name="slide next" aria-label="slide next" class="faculty-slick-next md:right-12 right-2 slick-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+            <button name="slide next" aria-label="slide next" class="faculty-slick-next group md:right-12 right-2 slick-btn">
+                <svg class="group-hover:scale-125 transition-all" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
 
             <div class="slick-slider-faculty section-x relative z-0">
-                <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="Medini_Singh.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 514;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1224,8 +1224,8 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Medini Singh</p>
                     <p class="mb-2 text-left text-sm">Professor of Operational Excellence</p>
                 </div>
-                <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="Jamie_Anderson.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 515;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1236,8 +1236,8 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Jamie Anderson</p>
                     <p class="mb-2 text-left text-sm">Professor of Creative Leadership</p>
                 </div>
-                <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="Anton_Musgrave.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 516;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1248,8 +1248,8 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Anton Musgrave</p>
                     <p class="mb-2 text-left text-sm">Futurist and Business Strategist</p>
                 </div>
-                <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="Olivier_Tabatoni.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 517;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1260,8 +1260,8 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Olivier Tabatoni</p>
                     <p class="mb-2 text-left text-sm">Professor of Finance and Strategy</p>
                 </div>
-                <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="Mike_Grandinetti.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 518;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1272,8 +1272,8 @@ get_header();
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Mike Grandinetti</p>
                     <p class="mb-2 text-left text-sm">Professor of Innovation</p>
                 </div>
-                <div class="p-6 h-full">
-                    <figure class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="Edward_Rogers.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 754;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1287,7 +1287,7 @@ get_header();
             </div>
         </div>
         <div class="section-x">
-            <p class="text-xs text-center">
+            <p class="text-xs text-center mt-8">
                 Indicative faculty, subject to change based on availability
             </p>
         </div>
@@ -1296,8 +1296,8 @@ get_header();
         <div>
             <h2 class="text-center">Hear From Faculty</h2>
 
-            <div class="md:space-y-10 space-y-5">
-                <div class="flex items-center md:flex-row flex-col-reverse md:gap-10 gap-5">
+            <div class="divide-y">
+                <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                             <?php $image_id = 7200;
@@ -1313,11 +1313,11 @@ get_header();
                             </div>
                         </figure>
                     </div>
-                    <h3 class="text-center flex-1">
-                        Prof. Jeremy Kagan on <br> Entrepreneurial Mindset for Organizations
+                    <h3 class="text-center flex-1 text-third">
+                        Prof. Jeremy Kagan on Entrepreneurial Mindset for Organizations
                     </h3>
                 </div>
-                <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10 gap-5">
+                <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                             <?php $image_id = 7200;
@@ -1333,11 +1333,11 @@ get_header();
                             </div>
                         </figure>
                     </div>
-                    <h3 class="text-center flex-1">
-                        Dean Vishal Gaur and other <br> Faculty on the Cornell Campus
+                    <h3 class="text-center flex-1 text-third">
+                        Dean Vishal Gaur and other Faculty on the Cornell Campus
                     </h3>
                 </div>
-                <div class="flex items-center md:flex-row flex-col-reverse md:gap-10 gap-5">
+                <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                             <?php $image_id = 7200;
@@ -1353,8 +1353,8 @@ get_header();
                             </div>
                         </figure>
                     </div>
-                    <h3 class="text-center flex-1">
-                        Prof. Glen Dowell on Leading <br> Through Sustainability
+                    <h3 class="text-center flex-1 text-third">
+                        Prof. Glen Dowell on Leading Through Sustainability
                     </h3>
                 </div>
             </div>
@@ -1375,7 +1375,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="relative md:h-[800px] h-[550px] my-20 px-0 section-y">
+    <section class="relative md:h-[800px] h-[550px] px-0 section-y">
         <div>
             <h2 class="text-center">Certificate</h2>
             <figure class="mx-auto md:w-1/2 w-11/12 h-full relative z-0">
@@ -1401,7 +1401,7 @@ get_header();
     </section>
     <section>
         <div>
-            <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10 gap-5">
+            <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10">
                 <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                     <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
                         <?php $image_id = 7200;
@@ -1444,7 +1444,7 @@ get_header();
                 <p>The interaction will be conducted online. The time and date will be communicated to you via email.</p>
             </div>
 
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap md:gap-0 gap-3">
                 <div class="md:basis-1/4 sm:basis-1/2 px-2.5 py-5">
                     <div class="md:size-14 size-10 mb-10 md:text-2xl text-xl font-semibold flex items-center justify-center rounded-full bg-primary text-white">
                         1
@@ -1490,19 +1490,19 @@ get_header();
             <h2 class="text-center">Testimonials</h2>
         </div>
         <div class="relative">
-            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev md:left-12 left-2 slick-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180" viewBox="0 0 24 24">
+            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev group md:left-12 left-2 slick-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180 group-hover:scale-125 transition-all" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
-            <button name="slide next" aria-label="slide next" class="faculty-slick-next md:right-12 right-2 slick-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+            <button name="slide next" aria-label="slide next" class="faculty-slick-next group md:right-12 right-2 slick-btn">
+                <svg class="group-hover:scale-125 transition-all" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
 
             <div class="slick-slider-faculty section-x relative z-0">
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 764;
@@ -1513,8 +1513,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Bonny Loo</p>
@@ -1522,7 +1522,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 763;
@@ -1533,8 +1533,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"Great lecture on how to get things done and negotiation. The class was great and the topics were clearly articulated and delivered"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"Great lecture on how to get things done and negotiation. The class was great and the topics were clearly articulated and delivered"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Evi Afiatin</p>
@@ -1542,7 +1542,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 762;
@@ -1553,8 +1553,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"Prof. Allan is a fantastic professor. He kept us engrossed in learning new concepts throughout which is a great thing"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"Prof. Allan is a fantastic professor. He kept us engrossed in learning new concepts throughout which is a great thing"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Kiran Bhat</p>
@@ -1562,7 +1562,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 761;
@@ -1573,8 +1573,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"It has been a wonderful experience. Gained a whole different perspective towards various challenges. It really helped to learn more"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"It has been a wonderful experience. Gained a whole different perspective towards various challenges. It really helped to learn more"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Rajesh Kachave</p>
@@ -1582,7 +1582,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 760;
@@ -1593,8 +1593,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"Loved this experience. The professors have intense enthusiasm and a wealth of knowledge. I am looking forward to reflecting on the learnings and putting it into practice"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"Loved this experience. The professors have intense enthusiasm and a wealth of knowledge. I am looking forward to reflecting on the learnings and putting it into practice"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Sara McAleese</p>
@@ -1602,7 +1602,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 759;
@@ -1613,8 +1613,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"The Cornell Senior Executive Leadership Program is very intensive and mind-filling. Got a lot of knowledge in the area that I was not too savvy: Digital & Technology. The Cornell campus experience was very challenging, yet stimulating."</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"The Cornell Senior Executive Leadership Program is very intensive and mind-filling. Got a lot of knowledge in the area that I was not too savvy: Digital & Technology. The Cornell campus experience was very challenging, yet stimulating."</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Harold Tjiptadjaja</p>
@@ -1622,7 +1622,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 758;
@@ -1633,8 +1633,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"An enriching experience at the Cornell campus. Interacted with global participants. Learned through simulations, case studies and interactions with esteemed Cornell professors on the integration of Digital, Strategy, Tech, Supply Chain and Sustainability. Truly empowering!"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"An enriching experience at the Cornell campus. Interacted with global participants. Learned through simulations, case studies and interactions with esteemed Cornell professors on the integration of Digital, Strategy, Tech, Supply Chain and Sustainability. Truly empowering!"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Samar Mohamed Omar Al Saggaf</p>
@@ -1642,7 +1642,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 757;
@@ -1653,8 +1653,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"I am happy to be part of Cornell's Senior Executive Leadership Program 2022- 2023. Day 1 at Cornell New York campus was an amazing start with insights on Strategy and Digital Technology."</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"I am happy to be part of Cornell's Senior Executive Leadership Program 2022- 2023. Day 1 at Cornell New York campus was an amazing start with insights on Strategy and Digital Technology."</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Manoj Divakaran</p>
@@ -1662,7 +1662,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="px-3 h-full md:h-[522px]">
+                <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
                             <?php $image_id = 756;
@@ -1673,8 +1673,8 @@ get_header();
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
                         </figure>
 
-                        <div class="text-xl font-medium">
-                            <p class="text-xl"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
+                        <div class="md:text-xl text-lg font-medium">
+                            <p class="md:text-xl text-lg"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
                         </div>
                         <div class="text-center">
                             <p class="text-lg font-semibold mt-3 mb-0 text-primary">Allan Filipowicz</p>
@@ -1691,7 +1691,7 @@ get_header();
                 <h2>Who Should Apply?</h2>
                 <p>Cornell SELP is meticulously crafted to guide CXOs, business owners, and seasoned leaders through today's evolving business landscape, empowering them to excel amidst disruption and emerging challenges, with a key focus on their personalized tracks</p>
 
-                <ul class="list-none text-left">
+                <ul class="list-none p-0 text-left">
                     <li class="flex items-center gap-2">
                         <figure class="aspect-square size-9 shrink-0">
                             <?php $image_id = 765;
@@ -1741,13 +1741,205 @@ get_header();
         </div>
     </section>
 
+
+    <dialog id="Edward_Rogers" class="modal">
+        <div class="modal-box">
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 754;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-2">
+                        Edward Rogers
+                    </h2>
+                    <h5 class="text-third">
+                        Ex Chief Knowledge Officer at Nasa
+                    </h5>
+
+                    Edward Rogers joined NASA in 2003 after teaching strategy and entrepreneurship in Alabama. For seventeen years he served as the Chief Knowledge Officer at the NASA Goddard Space Flight Center in Greenbelt, Maryland until his retirement from government service in 2020. Edward Rogers received a B.S. in Agronomy from the Ohio State University, a Master’s in International Business from the University of South Carolina and a Ph.D. from Cornell University focusing on game theory applications to collaboration in high tech firms.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
+    <dialog id="Medini_Singh" class="modal">
+        <div class="modal-box">
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 514;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-2">
+                        Medini Singh
+                    </h2>
+                    <h5 class="text-third">
+                        Professor of Operational Excellence
+                    </h5>
+
+                    Professor Medini Singh joined Columbia Business School in 2001 as a member of the Decision, Risk, and Operations Division. He teaches a variety of courses in Columbia’s MBA and Executive MBA programs, including the core course in Operations Management and electives in Supply Chain Management, Operations Strategy, and Service Operations Management. Professor Singh holds a B.E. in industrial engineering from the Indian Institute of Technology, Roorkee (India) and an M.E. in mechanical engineering, an M.S. in manufacturing and operations systems and a Ph.D. in Industrial Administration, all from Carnegie Mellon.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
+    <dialog id="Olivier_Tabatoni" class="modal">
+        <div class="modal-box">
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 517;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-2">
+                        Olivier Tabatoni
+                    </h2>
+                    <h5 class="text-third">
+                        Professor of Finance and Strategy
+                    </h5>
+
+                    Olivier Tabatoni is Associate Fellow at the Oxford University Saïd Business School. He was Visiting Professor at the Kellogg School of Management, Northwestern University and the Haas Business School, Berkeley. He regularly teaches in various universities and business schools in Europe including HEC Paris, Ecole Polytechnique or the Berlin School of Creative Leadership. Olivier Tabatoni received his Ph.D. in Finance from New York University’s Stern School of Management.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
+    <dialog id="Jamie_Anderson" class="modal">
+        <div class="modal-box">
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 515;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-2">
+                        Jamie Anderson
+                    </h2>
+                    <h5 class="text-third">
+                        Professor of Creative Leadership
+                    </h5>
+
+                    Jamie has held teaching positions at some of the world’s top business schools, such as London Business School, IMD, ESMT Berlin and the University of Melbourne. Named as a “management guru” by the Financial Times, Jamie has also been listed as one of the world’s top 25 management thinkers by the journal Business Strategy Review. He is passionate about teaching strategy, innovation and creativity.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
+    <dialog id="Mike_Grandinetti" class="modal">
+        <div class="modal-box">
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 518;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-2">
+                        Mike Grandinetti
+                    </h2>
+                    <h5 class="text-third">
+                        Professor of Innovation
+                    </h5>
+
+                    Mike Grandinetti is Adjunct Professor, School of Engineering at Brown University. As a veteran Silicon Valley engineer and McKinsey consultant, Mike has been in the practice of innovation and entrepreneurship as an operating executive and educator. Mike serves as a faculty member at Harvard & Rutgers and has been affiliated with MIT in various capacities. Mike has been continuously active in the fields of innovation, entrepreneurship, human-centric design and digital marketing since earning his Bachelor of Science in Engineering degree. He went on to earn his MBA degree with distinction at Yale.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
+    <dialog id="Anton_Musgrave" class="modal">
+        <div class="modal-box">
+            <div class="flex md:flex-row flex-col md:gap-10 gap-5">
+                <div class="basis-1/3">
+                    <figure class="aspect-square w-full">
+                        <?php $image_id = 516;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-2">
+                        Anton Musgrave
+                    </h2>
+                    <h5 class="text-third">
+                        Futurist and Business Strategist
+                    </h5>
+
+                    Anton Musgrave lectures regularly for London Business School, Duke CE, IMD and Oxford’s Said Business School. He is passionate about teaching business strategy, innovation and the future. He has also served as Managing Partner of a large legal practice and Managing Director of a major property business. He shares an insightful understanding of the drivers of long-term business success, shifting business models and what it takes to stay ahead of the market.
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
+
+
+
+
     <dialog id="Allan_Filipowicz" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1760,9 +1952,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Allan Filipowicz
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Clinical Professor of Management and Organisations
                     </h5>
@@ -1773,15 +1965,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Karan_Girotra" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1794,9 +1985,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Karan Girotra
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Professor of Operations Technology and Innovation
                     </h5>
@@ -1807,15 +1998,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Derek_Cabrerra" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1828,9 +2018,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Derek Cabrerra
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Systems Scientist
                     </h5>
@@ -1840,15 +2030,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Risa_Mish" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1861,9 +2050,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Risa Mish
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Professor of Practice and Management
                     </h5>
@@ -1873,15 +2062,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Glen_Dowell" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1894,9 +2082,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Glen Dowell
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Professor of Management
                     </h5>
@@ -1906,15 +2094,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Barbara_Mink" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1927,9 +2114,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Barbara Mink
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Senior Lecturer of Management Communication
                     </h5>
@@ -1939,15 +2126,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Justin_Johnson" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1960,9 +2146,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Justin Johnson
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Professor of Management
                     </h5>
@@ -1972,15 +2158,14 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
     <dialog id="Gautam_Ahuja" class="modal">
         <div class="modal-box">
-            <form method="dialog">
-                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" class="md:text-xl text-lg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
-                    </svg></button>
-            </form>
+
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1993,9 +2178,9 @@ get_header();
                     </figure>
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-2">
+                    <h2 class="mb-2">
                         Gautam Ahuja
-                    </h3>
+                    </h2>
                     <h5 class="text-third">
                         Professor of Management and Organisations
                     </h5>
@@ -2006,6 +2191,9 @@ get_header();
         </div>
         <form method="dialog" class="modal-backdrop">
             <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
         </form>
     </dialog>
 </article>

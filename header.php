@@ -25,7 +25,7 @@
         </div>
         <div class="flex items-center justify-between md:px-28 px-5 py-4 md:gap-0 gap-20">
             <a aria-label="goto home page" href="/">
-                <figure class="w-[80px]">
+                <figure class="md:w-[80px] w-[70px]">
                     <?php echo wp_get_attachment_image($primary_header["main_logo"], "medium", false, [
                         "loading" => "eager",
                         "class" => "image-contain",
@@ -34,7 +34,7 @@
                 </figure>
             </a>
             <a aria-label="goto home page" href="/">
-                <figure class="w-[70px]">
+                <figure class="md:w-[70px] w-[60px]">
                     <?php echo wp_get_attachment_image($primary_header["secondary_logo"], "medium", false, [
                         "loading" => "eager",
                         "class" => "image-contain",
