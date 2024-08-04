@@ -1,5 +1,10 @@
 </main>
-<footer class="section bg-primary text-white">
+
+<div class="overlay fixed bottom-0 left-0 z-[999] w-full bg-white/85 py-3 flex justify-center backdrop-blur">
+    <a href="/#get-brochure" class="cbtn-primary">Download Brochure</a>
+</div>
+
+<footer class="section mb-20 bg-primary text-white">
     <div class="flex flex-wrap lg:gap-20 md:gap-10 gap-5">
         <div class="shrink-0">
             <figure class="md:w-32 w-20">

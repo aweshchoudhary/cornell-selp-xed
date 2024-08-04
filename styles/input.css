@@ -33,7 +33,7 @@
     /* Common Styles for Text */
     /* Global Styles for Text Elements */
     h1 {
-        @apply sm:text-5xl text-4xl font-bold leading-tight;
+        @apply sm:text-4xl text-3xl font-bold mb-3 leading-tight;
     }
 
     h2 {
@@ -127,7 +127,7 @@
 }
 /* Button Sytles */
 .play-btn {
-    @apply rounded-full md:size-[80px] size-[50px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
+    @apply rounded-full md:size-[65px] size-[50px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
 }
 .play-btn-sm {
     @apply rounded-full size-[50px] bg-pred text-white flex items-center justify-center absolute capitalize inset-1/2 group-hover:scale-110 transition-all -translate-x-1/2 -translate-y-1/2 md:text-5xl text-3xl;
@@ -204,7 +204,8 @@ select {
     @apply md:text-4xl text-2xl font-medium text-center text-white !important;
 }
 
-.main-form .wpforms-field-label {
+.main-form .wpforms-field-label,
+.main-form .wpforms-field-label-inline {
     @apply text-white !important;
 }
 

@@ -5,7 +5,7 @@ get_header();
 ?>
 
 <article>
-    <section class="md:flex p-0 text-white">
+    <section id="get-brochure" class="md:flex p-0 text-white">
         <div class="flex-1 relative md:h-auto h-[400px]">
             <figure class="w-full h-full relative z-0">
                 <?php $image_id = 698;
@@ -31,7 +31,7 @@ get_header();
         <div>
             <div class="text-center mb-5">
                 <h2 class="text-center mb-0">Program Overview</h2>
-                <p class="mb-0">
+                <p class="mb-0 text-lg font-medium">
                     Choose Your Track. Elevate Your Impact.
                 </p>
             </div>
@@ -75,7 +75,7 @@ get_header();
                         <div class="md:text-2xl sm:text-xl text-lg uppercase">
                             <span class="block">DURATION</span>
                             <span class="block md:text-3xl sm:text-2xl text-xl font-semibold">
-                                10 mONTHS
+                                10 months
                             </span>
                         </div>
                     </li>
@@ -93,16 +93,28 @@ get_header();
                             <span class="block md:text-3xl sm:text-2xl text-xl font-semibold">
                                 USD 28,000
                             </span>
+                            <button name="show more details" aria-label="Show more details" class="text-base mt-1 block underline hover:text-white/80 transition text-left" onclick="emi_form_modal.showModal()">Easy EMI options available</button>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="section">
-                <p class="text-xs text-gray-400">The Program fee encompasses tuition fees, academic materials, and program-related meal expenses. Notwithstanding, the fees explicitly exclude transportation, lodging, visa charges, and any unspecified expenses. Furthermore, it does not encompass additional costs beyond those expressly detailed herein.</p>
-                <p class="text-xs text-gray-400"> Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.</p>
+                <p class="text-xs text-gray-600">The Program fee encompasses tuition fees, academic materials, and program-related meal expenses. Notwithstanding, the fees explicitly exclude transportation, lodging, visa charges, and any unspecified expenses. Furthermore, it does not encompass additional costs beyond those expressly detailed herein.</p>
+                <p class="text-xs text-gray-600"> Please note that in the event of a global or regional catastrophe, or any unforeseen circumstances, the Program's schedule, delivery method, faculty, and associated elements are subject to change at the sole discretion of the university.</p>
             </div>
         </div>
     </section>
+    <dialog id="emi_form_modal" class="modal">
+        <div class="modal-box">
+            <?php echo do_shortcode('[wpforms id="766" title="true"]'); ?>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
+                </svg></button>
+        </form>
+    </dialog>
     <section class="bg-light-gray ">
         <h2 class="text-center ">
             Program Benefits
@@ -175,7 +187,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <div>
-                    <p class="font-medium text-xl">2 personalized track-based modules (4 weeks)</p>
+                    <p class="font-medium md:text-2xl text-xl">2 personalized track-based modules (4 weeks)</p>
                     <ul>
                         <li>(Choose among 10+ modules) </li>
                         <li>Includes 4 faculty interactions </li>
@@ -1300,14 +1312,14 @@ get_header();
                 <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
-                            <?php $image_id = 7200;
+                            <?php $image_id = 771;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
-                            <div class="play-btn-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                            <div class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
                                     <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
                                 </svg>
                             </div>
@@ -1319,15 +1331,15 @@ get_header();
                 </div>
                 <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
-                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
-                            <?php $image_id = 7200;
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('nVFLVjvYznI', this)">
+                            <?php $image_id = 770;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
-                            <div class="play-btn-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                            <div class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
                                     <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
                                 </svg>
                             </div>
@@ -1339,15 +1351,35 @@ get_header();
                 </div>
                 <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
-                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
-                            <?php $image_id = 7200;
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('VOUd2sUvS2I', this)">
+                            <?php $image_id = 790;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
-                            <div class="play-btn-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                            <div class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                                </svg>
+                            </div>
+                        </figure>
+                    </div>
+                    <h3 class="text-center flex-1 text-third">
+                        Dr. Gautam Ahuja on Leading with a Strategic Mindset
+                    </h3>
+                </div>
+                <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
+                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('HDbNTcPFHko', this)">
+                            <?php $image_id = 769;
+                            echo wp_get_attachment_image($image_id, "large", false, [
+                                "loading" => "lazy",
+                                "class" => "image-contain border",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                            <div class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
                                     <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
                                 </svg>
                             </div>
@@ -1403,15 +1435,15 @@ get_header();
         <div>
             <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10">
                 <div class="aspect-video h-full w-full bg-gray-100 flex-1">
-                    <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
-                        <?php $image_id = 7200;
+                    <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('CgYotlupVNI', this)">
+                        <?php $image_id = 768;
                         echo wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
                             "class" => "image-contain border",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
-                        <div class="play-btn-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                        <div class="play-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
                                 <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
                             </svg>
                         </div>
@@ -1674,11 +1706,11 @@ get_header();
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
-                            <p class="md:text-xl text-lg"><em>"The content provided during the program is eye opening and inspiring and especially great learning from peers from across geographies"</em></p>
+                            <p class="md:text-xl text-lg"><em>"It was an amazing week in Dubai. Met some amazing people during the cohort. I learned some things from a really different perspective."</em></p>
                         </div>
                         <div class="text-center">
-                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Allan Filipowicz</p>
-                            <p class="mb-2 text-sm">Clinical Professor of Management and Organisations</p>
+                            <p class="text-lg font-semibold mt-3 mb-0 text-primary">Aashiesh Tavkarr</p>
+                            <p class="mb-2 text-sm">Leadership Coach and Psychotherapist<br> Metanoia - Changing Mindsets<br> Pune, India</p>
                         </div>
                     </div>
                 </div>

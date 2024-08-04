@@ -21,7 +21,7 @@
 
     <header>
         <div class="md:px-28 px-5 py-2 bg-primary text-right">
-            <a href="#" class="text-white hover:text-white/70 hover:underline transition-all">Refer and Earn</a>
+            <a target="__blank" href="https://referrals.xedinstitute.org/bU5LHK/join" class="text-white hover:text-white/70 hover:underline transition-all">Refer and Earn</a>
         </div>
         <div class="flex items-center justify-between md:px-28 px-5 py-4 md:gap-0 gap-20">
             <a aria-label="goto home page" href="/">
