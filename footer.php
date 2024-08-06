@@ -1,5 +1,4 @@
 </main>
-
 <footer class="section mb-20 bg-primary text-white">
     <div class="flex flex-wrap lg:gap-20 md:gap-10 gap-5">
         <div class="shrink-0">

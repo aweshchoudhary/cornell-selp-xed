@@ -93,7 +93,7 @@ get_header();
                             <span class="block md:text-3xl sm:text-2xl text-xl font-semibold">
                                 USD 28,000
                             </span>
-                            <button name="show more details" aria-label="Show more details" class="text-base mt-1 block underline hover:text-white/80 transition text-left" onclick="emi_form_modal.showModal()">Easy EMI options available</button>
+                            <button name="show more details" aria-label="Show more details" class="text-base mt-1 block underline hover:text-white/80 transition text-left" onclick="showModal('emi_form_modal')">Easy EMI options available</button>
                         </div>
                     </li>
                 </ul>
@@ -104,25 +104,23 @@ get_header();
             </div>
         </div>
     </section>
-    <dialog id="emi_form_modal" class="modal">
-        <div class="modal-box">
+    <div class="modal-custom" id="emi_form_modal">
+        <div class="modal-content">
             <?php echo do_shortcode('[wpforms id="766" title="true"]'); ?>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
+        </div>
+    </div>
     <section class="bg-light-gray ">
         <h2 class="text-center ">
             Program Benefits
         </h2>
-
         <ul class="list-none p-0 m-0 flex flex-wrap md:gap-10 gap-5">
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 721;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -130,12 +128,12 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">2 weeks in-class sessions at New York Campus and Dubai</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 720;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -143,12 +141,12 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">Choose from 7 personalized tracks (CEO, CSO, CFO, CTO, COO, CMO, CHRO</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 719;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -156,12 +154,12 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">9 Online sessions (100% LIVE interactive)</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 718;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -169,7 +167,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="font-medium text-xl">4 Online modules (8 weeks) </p>
                     <ul>
                         <li>Each Online Module Duration: 2 weeks</li>
@@ -178,7 +176,7 @@ get_header();
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 717;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -186,7 +184,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="font-medium md:text-2xl text-xl">2 personalized track-based modules (4 weeks)</p>
                     <ul>
                         <li>(Choose among 10+ modules) </li>
@@ -195,7 +193,7 @@ get_header();
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 716;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -203,14 +201,14 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">
                         Gamified Learning Experience includes Simulations on Leadership and Commercial Acumen
                     </p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 715;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -218,12 +216,12 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">Earn Cornell Executive Alumni Status and Certificate from Cornell University</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 714;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -231,7 +229,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">10 track-based courses</p>
                     <ul>
                         <li>
@@ -241,7 +239,7 @@ get_header();
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 713;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -249,12 +247,12 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">Elite cohort of diverse global leaders for impactful learning</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
-                <figure class="md:w-[100px] w-[80px] md:h-full shrink-0">
+                <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
                     <?php $image_id = 712;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
@@ -262,7 +260,7 @@ get_header();
                     ]); ?>
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
-                <div>
+                <div class="md:text-left text-center">
                     <p class="md:text-2xl text-xl font-medium">2-year access to Cornell’s library of 2000+ courses</p>
                 </div>
             </li>
@@ -514,10 +512,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('4PNUsD8wv3U', this)">
-                            <?php $image_id = 817;
+                            <?php $image_id = 833;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -535,10 +533,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('XG60ORmjJYk', this)">
-                            <?php $image_id = 816;
+                            <?php $image_id = 832;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -556,10 +554,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('sQ3_JpUO2P4', this)">
-                            <?php $image_id = 815;
+                            <?php $image_id = 831;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -577,10 +575,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('9hjymVDqeNU', this)">
-                            <?php $image_id = 814;
+                            <?php $image_id = 830;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -598,10 +596,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('fxXH5f8OU54', this)">
-                            <?php $image_id = 813;
+                            <?php $image_id = 829;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -619,10 +617,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('DlXhXljDdeA', this)">
-                            <?php $image_id = 812;
+                            <?php $image_id = 828;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -638,10 +636,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('8uoMwhkLkO8', this)">
-                            <?php $image_id = 811;
+                            <?php $image_id = 827;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -659,10 +657,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('r3lsEUzFQTc', this)">
-                            <?php $image_id = 810;
+                            <?php $image_id = 826;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -680,10 +678,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('MgC36CskSjc', this)">
-                            <?php $image_id = 809;
+                            <?php $image_id = 825;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -701,10 +699,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('SncUi8m4FPY', this)">
-                            <?php $image_id = 808;
+                            <?php $image_id = 824;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -722,10 +720,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('qQioifbq0i8', this)">
-                            <?php $image_id = 807;
+                            <?php $image_id = 823;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -743,10 +741,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('P5MMUt8djMI', this)">
-                            <?php $image_id = 806;
+                            <?php $image_id = 822;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -764,10 +762,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('VHBY_Fq2Lts', this)">
-                            <?php $image_id = 805;
+                            <?php $image_id = 821;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -785,10 +783,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('G5bN5O6eTbk', this)">
-                            <?php $image_id = 804;
+                            <?php $image_id = 820;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -806,10 +804,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('w2s4y2dFv10', this)">
-                            <?php $image_id = 803;
+                            <?php $image_id = 819;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -827,10 +825,10 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('30raNV_3G9I', this)">
-                            <?php $image_id = 802;
+                            <?php $image_id = 818;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn-sm">
@@ -1087,20 +1085,32 @@ get_header();
             <h2 class="text-center">Faculty</h2>
         </div>
         <div class="relative">
-            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev group md:left-12 left-2 slick-btn">
+            <button name="slide previous" aria-label="slide previous" class="slick-1-prev group md:left-12 left-2 slick-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180 group-hover:scale-125 transition-all" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
-            <button name="slide next" aria-label="slide next" class="faculty-slick-next group md:right-12 right-2 slick-btn">
+            <button name="slide next" aria-label="slide next" class="slick-1-next group md:right-12 right-2 slick-btn">
                 <svg class="group-hover:scale-125 transition-all" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
 
-            <div class="slick-slider-faculty section-x relative z-0">
+            <div class="slick-slider-1 section-x relative z-0">
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Allan_Filipowicz.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Gautam_Ahuja')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                        <?php $image_id = 751;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Gautam Ahuja</p>
+                    <p class="mb-2 text-left text-sm">Professor of Management and Organisations</p>
+                </div>
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="showModal('Allan_Filipowicz')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 752;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1112,7 +1122,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Clinical Professor of Management and Organisations</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Karan_Girotra.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Karan_Girotra')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 753;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1125,19 +1135,7 @@ get_header();
                         and Innovation</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Gautam_Ahuja.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 751;
-                        echo wp_get_attachment_image($image_id, "medium", false, [
-                            "loading" => "lazy",
-                            "class" => "image-cover group-hover:scale-105 transition-all",
-                        ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
-                    </figure>
-                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Gautam Ahuja</p>
-                    <p class="mb-2 text-left text-sm">Professor of Management and Organisations</p>
-                </div>
-                <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Barbara_Mink.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Barbara_Mink')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 749;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1149,7 +1147,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Senior Lecturer of Management Communication</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Justin_Johnson.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Justin_Johnson')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 750;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1161,7 +1159,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Glen_Dowell.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Glen_Dowell')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 748;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1173,7 +1171,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Risa_Mish.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Risa_Mish')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 747;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1186,7 +1184,7 @@ get_header();
                         Management</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Derek_Cabrerra.showModal()" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Derek_Cabrerra')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 746;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1212,20 +1210,20 @@ get_header();
             </h2>
         </div>
         <div class="relative">
-            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev group md:left-12 left-2 slick-btn">
+            <button name="slide previous" aria-label="slide previous" class="slick-2-prev group md:left-12 left-2 slick-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180 group-hover:scale-125 transition-all" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
-            <button name="slide next" aria-label="slide next" class="faculty-slick-next group md:right-12 right-2 slick-btn">
+            <button name="slide next" aria-label="slide next" class="slick-2-next group md:right-12 right-2 slick-btn">
                 <svg class="group-hover:scale-125 transition-all" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
 
-            <div class="slick-slider-faculty section-x relative z-0">
+            <div class="slick-slider-2 section-x relative z-0">
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Medini_Singh.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Medini_Singh')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 514;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1237,7 +1235,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Operational Excellence</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Jamie_Anderson.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Jamie_Anderson')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 515;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1249,7 +1247,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Creative Leadership</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Anton_Musgrave.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Anton_Musgrave')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 516;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1261,7 +1259,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Futurist and Business Strategist</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Olivier_Tabatoni.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Olivier_Tabatoni')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 517;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1273,7 +1271,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Finance and Strategy</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Mike_Grandinetti.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Mike_Grandinetti')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 518;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1285,7 +1283,7 @@ get_header();
                     <p class="mb-2 text-left text-sm">Professor of Innovation</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="Edward_Rogers.showModal()" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                    <figure onclick="showModal('Edward_Rogers')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 754;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
@@ -1311,51 +1309,11 @@ get_header();
             <div class="divide-y">
                 <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
-                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
-                            <?php $image_id = 771;
-                            echo wp_get_attachment_image($image_id, "large", false, [
-                                "loading" => "lazy",
-                                "class" => "image-contain border",
-                            ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
-                            <div class="play-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
-                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
-                                </svg>
-                            </div>
-                        </figure>
-                    </div>
-                    <h3 class="text-center flex-1 text-third">
-                        Prof. Jeremy Kagan on Entrepreneurial Mindset for Organizations
-                    </h3>
-                </div>
-                <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
-                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
-                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('nVFLVjvYznI', this)">
-                            <?php $image_id = 770;
-                            echo wp_get_attachment_image($image_id, "large", false, [
-                                "loading" => "lazy",
-                                "class" => "image-contain border",
-                            ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
-                            <div class="play-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
-                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
-                                </svg>
-                            </div>
-                        </figure>
-                    </div>
-                    <h3 class="text-center flex-1 text-third">
-                        Dean Vishal Gaur and other Faculty on the Cornell Campus
-                    </h3>
-                </div>
-                <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
-                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('VOUd2sUvS2I', this)">
                             <?php $image_id = 790;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn">
@@ -1371,11 +1329,51 @@ get_header();
                 </div>
                 <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
+                            <?php $image_id = 771;
+                            echo wp_get_attachment_image($image_id, "large", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover border",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                            <div class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                                </svg>
+                            </div>
+                        </figure>
+                    </div>
+                    <h3 class="text-center flex-1 text-third">
+                        Prof. Jeremy Kagan on Entrepreneurial Mindset for Organizations
+                    </h3>
+                </div>
+                <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
+                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
+                        <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('nVFLVjvYznI', this)">
+                            <?php $image_id = 770;
+                            echo wp_get_attachment_image($image_id, "large", false, [
+                                "loading" => "lazy",
+                                "class" => "image-cover border",
+                            ]); ?>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
+                            <div class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="md:text-5xl sm:text-3xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                                </svg>
+                            </div>
+                        </figure>
+                    </div>
+                    <h3 class="text-center flex-1 text-third">
+                        Dean Vishal Gaur and other Faculty on the Cornell Campus
+                    </h3>
+                </div>
+                <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
+                    <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('HDbNTcPFHko', this)">
                             <?php $image_id = 769;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
-                                "class" => "image-contain border",
+                                "class" => "image-cover border",
                             ]); ?>
                             <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                             <div class="play-btn">
@@ -1439,7 +1437,7 @@ get_header();
                         <?php $image_id = 768;
                         echo wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
-                            "class" => "image-contain border",
+                            "class" => "image-cover border",
                         ]); ?>
                         <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                         <div class="play-btn">
@@ -1522,18 +1520,18 @@ get_header();
             <h2 class="text-center">Testimonials</h2>
         </div>
         <div class="relative">
-            <button name="slide previous" aria-label="slide previous" class="faculty-slick-prev group md:left-12 left-2 slick-btn">
+            <button name="slide previous" aria-label="slide previous" class="slick-1-prev group md:left-12 left-2 slick-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="rotate-180 group-hover:scale-125 transition-all" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
-            <button name="slide next" aria-label="slide next" class="faculty-slick-next group md:right-12 right-2 slick-btn">
+            <button name="slide next" aria-label="slide next" class="slick-1-next group md:right-12 right-2 slick-btn">
                 <svg class="group-hover:scale-125 transition-all" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
                 </svg>
             </button>
 
-            <div class="slick-slider-faculty section-x relative z-0">
+            <div class="slick-slider-1 section-x relative z-0">
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
@@ -1773,9 +1771,8 @@ get_header();
         </div>
     </section>
 
-
-    <dialog id="Edward_Rogers" class="modal">
-        <div class="modal-box">
+    <div class="modal-custom" id="Edward_Rogers">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1799,15 +1796,15 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Medini_Singh" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+
+    <div id="Medini_Singh" class="modal-custom">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1831,15 +1828,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Olivier_Tabatoni" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Olivier_Tabatoni" class="modal-custom">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1863,15 +1859,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Jamie_Anderson" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Jamie_Anderson" class="modal-custom">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1895,15 +1890,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Mike_Grandinetti" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Mike_Grandinetti" class="modal-custom">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1927,15 +1921,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Anton_Musgrave" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Anton_Musgrave" class="modal-custom">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1959,19 +1952,18 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
+        </div>
+    </div>
 
 
 
 
-    <dialog id="Allan_Filipowicz" class="modal">
-        <div class="modal-box">
+    <div id="Allan_Filipowicz" class="modal-custom">
+        <div class="modal-content">
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
@@ -1995,15 +1987,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Karan_Girotra" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Karan_Girotra" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2028,15 +2019,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Derek_Cabrerra" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Derek_Cabrerra" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2060,15 +2050,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Risa_Mish" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Risa_Mish" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2092,15 +2081,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Glen_Dowell" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Glen_Dowell" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2124,15 +2112,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Barbara_Mink" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Barbara_Mink" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2156,15 +2143,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Justin_Johnson" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Justin_Johnson" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2188,15 +2174,14 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
-    <dialog id="Gautam_Ahuja" class="modal">
-        <div class="modal-box">
+        </div>
+    </div>
+    <div id="Gautam_Ahuja" class="modal-custom">
+        <div class="modal-content">
 
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
@@ -2221,13 +2206,12 @@ get_header();
                 </div>
             </div>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-            <button class="flex items-center gap-2 absolute lg:top-16 lg:right-16 md:top-10 md:right-10 right-2 text-white top-2 md:text-2xl text-xl">Close <svg class="md:text-3xl text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <div class="c-backdrop">
+            <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z" />
                 </svg></button>
-        </form>
-    </dialog>
+        </div>
+    </div>
 </article>
 <div class="overlay fixed bottom-0 left-0 z-[999] w-full bg-white/85 py-3 flex justify-center backdrop-blur">
     <a href="/#get-brochure" class="cbtn-primary">Download Brochure</a>
