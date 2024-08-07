@@ -129,7 +129,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <div class="md:text-left text-center">
-                    <p class="md:text-2xl text-xl font-medium">2 weeks in-class sessions at New York Campus and Dubai</p>
+                    <p class="md:text-2xl text-xl font-medium">2 week in-class sessions at New York Campus and Dubai</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
@@ -142,7 +142,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <div class="md:text-left text-center">
-                    <p class="md:text-2xl text-xl font-medium">Choose from 7 personalized tracks (CEO, CSO, CFO, CTO, COO, CMO, CHRO</p>
+                    <p class="md:text-2xl text-xl font-medium">Choose from 7 personalized tracks (CEO, CSO, CFO, CTO, COO, CMO, CHRO)</p>
                 </div>
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
@@ -271,7 +271,7 @@ get_header();
             <h2 class="text-center">Curriculum</h2>
             <div class="readmore-section md:mb-10 mb-5">
                 <h3>
-                    IN-PERSON MODULE IN DUBAI (9-13 DECEMBER 2024)
+                    IN-PERSON MODULE IN DUBAI (09-13 DECEMBER 2024)
                 </h3>
 
                 <h4 class="text-inherit">Interplay of Strategy, Execution and Leadership</h4>
@@ -1097,18 +1097,7 @@ get_header();
             </button>
 
             <div class="slick-slider-1 section-x relative z-0">
-                <div class="md:px-6 px-8 h-full">
-                    <figure onclick="showModal('Gautam_Ahuja')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 751;
-                        echo wp_get_attachment_image($image_id, "medium", false, [
-                            "loading" => "lazy",
-                            "class" => "image-cover group-hover:scale-105 transition-all",
-                        ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
-                    </figure>
-                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Gautam Ahuja</p>
-                    <p class="mb-2 text-left text-sm">Professor of Management and Organisations</p>
-                </div>
+
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Allan_Filipowicz')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 752;
@@ -1116,23 +1105,10 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Allan Filipowicz</p>
                     <p class="mb-2 text-left text-sm">Clinical Professor of Management and Organisations</p>
-                </div>
-                <div class="md:px-6 px-8 h-full">
-                    <figure onclick="showModal('Karan_Girotra')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 753;
-                        echo wp_get_attachment_image($image_id, "medium", false, [
-                            "loading" => "lazy",
-                            "class" => "image-cover group-hover:scale-105 transition-all",
-                        ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
-                    </figure>
-                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Karan Girotra</p>
-                    <p class="mb-2 text-left text-sm">Professor of Operations Technology
-                        and Innovation</p>
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Barbara_Mink')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
@@ -1141,7 +1117,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Barbara Mink</p>
                     <p class="mb-2 text-left text-sm">Senior Lecturer of Management Communication</p>
@@ -1153,7 +1129,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Justin Johnson</p>
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
@@ -1165,7 +1141,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Glen Dowell</p>
                     <p class="mb-2 text-left text-sm">Professor of Management</p>
@@ -1177,7 +1153,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Risa Mish</p>
                     <p class="mb-2 text-left text-sm">Professor of Practice and
@@ -1190,10 +1166,35 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Derek Cabrerra</p>
                     <p class="mb-2 text-left text-sm">Systems Scientist</p>
+                </div>
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="showModal('Gautam_Ahuja')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                        <?php $image_id = 751;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Gautam Ahuja</p>
+                    <p class="mb-2 text-left text-sm">Professor of Management and Organisations</p>
+                </div>
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="showModal('Karan_Girotra')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                        <?php $image_id = 753;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Karan Girotra</p>
+                    <p class="mb-2 text-left text-sm">Professor of Operations Technology
+                        and Innovation</p>
                 </div>
             </div>
         </div>
@@ -1223,25 +1224,13 @@ get_header();
 
             <div class="slick-slider-2 section-x relative z-0">
                 <div class="md:px-6 px-8 h-full">
-                    <figure onclick="showModal('Medini_Singh')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 514;
-                        echo wp_get_attachment_image($image_id, "medium", false, [
-                            "loading" => "lazy",
-                            "class" => "image-cover group-hover:scale-105 transition-all",
-                        ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
-                    </figure>
-                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Medini Singh</p>
-                    <p class="mb-2 text-left text-sm">Professor of Operational Excellence</p>
-                </div>
-                <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Jamie_Anderson')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
                         <?php $image_id = 515;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Jamie Anderson</p>
                     <p class="mb-2 text-left text-sm">Professor of Creative Leadership</p>
@@ -1253,7 +1242,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Anton Musgrave</p>
                     <p class="mb-2 text-left text-sm">Futurist and Business Strategist</p>
@@ -1265,7 +1254,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Olivier Tabatoni</p>
                     <p class="mb-2 text-left text-sm">Professor of Finance and Strategy</p>
@@ -1277,7 +1266,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Mike Grandinetti</p>
                     <p class="mb-2 text-left text-sm">Professor of Innovation</p>
@@ -1289,10 +1278,22 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                     <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Edward Rogers</p>
                     <p class="mb-2 text-left text-sm">Ex Chief Knowledge Officer at NASA</p>
+                </div>
+                <div class="md:px-6 px-8 h-full">
+                    <figure onclick="showModal('Medini_Singh')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
+                        <?php $image_id = 514;
+                        echo wp_get_attachment_image($image_id, "medium", false, [
+                            "loading" => "lazy",
+                            "class" => "image-cover group-hover:scale-105 transition-all",
+                        ]); ?>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
+                    </figure>
+                    <p class="md:text-xl text-lg font-semibold mt-3 mb-0">Medini Singh</p>
+                    <p class="mb-2 text-left text-sm">Professor of Operational Excellence</p>
                 </div>
             </div>
         </div>
@@ -1540,7 +1541,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1560,7 +1561,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1580,7 +1581,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1600,7 +1601,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1620,7 +1621,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1640,7 +1641,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1660,7 +1661,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1680,7 +1681,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1700,7 +1701,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-cover",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure>
 
                         <div class="md:text-xl text-lg font-medium">
@@ -1729,7 +1730,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-contain",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure> 10+ years of proven experience in leading high-performing teams or impactful projects
                     </li>
                     <li class="flex items-center gap-2">
@@ -1739,7 +1740,7 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-contain",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure> A minimum of a graduate degree
                     </li>
                     <li class="flex items-center gap-2">
@@ -1749,13 +1750,12 @@ get_header();
                                 "loading" => "lazy",
                                 "class" => "image-contain",
                             ]); ?>
-                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                            <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                         </figure> Country of residence at the time of enrolling must be Latin America, South Asia, Middle East, Africa, Far East
                     </li>
                 </ul>
                 <a href="/eligibility" class="cbtn-primary mx-auto">Apply Now</a>
             </div>
-            <p class="text-center mt-5">Cornell University is collaborating with XED to offer a portfolio of high-impact programs for senior leaders</p>
         </div>
         <div class="mt-10">
             <h2 class="text-center">
@@ -1781,7 +1781,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -1813,7 +1813,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -1844,7 +1844,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -1875,7 +1875,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -1906,7 +1906,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -1937,7 +1937,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -1972,7 +1972,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2004,7 +2004,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2036,7 +2036,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2067,7 +2067,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2098,7 +2098,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2129,7 +2129,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2160,7 +2160,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
@@ -2191,7 +2191,7 @@ get_header();
                             "loading" => "lazy",
                             "class" => "image-cover",
                         ]); ?>
-                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Michigan Ross or XED website image"; ?></figcaption>
+                        <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id) ?? "Cornell Selp or XED website image"; ?></figcaption>
                     </figure>
                 </div>
                 <div class="flex-1">
