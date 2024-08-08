@@ -8,7 +8,7 @@ get_header();
     <section id="get-brochure" class="md:flex p-0 text-white">
         <div class="flex-1 relative md:h-auto h-[400px]">
             <figure class="w-full h-full relative z-0">
-                <?php $image_id = 698;
+                <?php $image_id = 55;
                 echo wp_get_attachment_image($image_id, "large", false, [
                     "loading" => "eager",
                     "class" => "image-cover",
@@ -24,7 +24,7 @@ get_header();
         </div>
         <div class="flex-1 md:py-14 md:px-20 p-5 bg-third">
             <h2 class="text-center text-white">Get Your Brochure</h2>
-            <?php echo do_shortcode('[wpforms id="705"]') ?>
+            <?php echo do_shortcode('[wpforms id="12"]') ?>
         </div>
     </section>
     <section>
@@ -49,7 +49,7 @@ get_header();
                 <ul class="list-none m-0 p-0 flex md:flex-row flex-col items-center justify-between md:gap-0 gap-5">
                     <li class="flex items-center gap-5 md:w-auto w-full">
                         <figure class="md:w-[50px] w-[40px]">
-                            <?php $image_id = 711;
+                            <?php $image_id = 61;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain",
@@ -65,7 +65,7 @@ get_header();
                     </li>
                     <li class="flex items-center gap-5 md:w-auto w-full">
                         <figure class="md:w-[50px] w-[40px]">
-                            <?php $image_id = 710;
+                            <?php $image_id = 60;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain",
@@ -81,7 +81,7 @@ get_header();
                     </li>
                     <li class="flex items-center gap-5 md:w-auto w-full">
                         <figure class="md:w-[50px] w-[40px]">
-                            <?php $image_id = 709;
+                            <?php $image_id = 59;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain",
@@ -106,7 +106,7 @@ get_header();
     </section>
     <div class="modal-custom" id="emi_form_modal">
         <div class="modal-content">
-            <?php echo do_shortcode('[wpforms id="766" title="true"]'); ?>
+            <?php echo do_shortcode('[wpforms id="10" title="true"]'); ?>
         </div>
         <div class="c-backdrop">
             <button class="modal-close-btn">Close <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
@@ -121,7 +121,7 @@ get_header();
         <ul class="list-none p-0 m-0 flex flex-wrap md:gap-10 gap-5">
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 721;
+                    <?php $image_id = 69;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -134,7 +134,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 720;
+                    <?php $image_id = 70;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -147,7 +147,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 719;
+                    <?php $image_id = 71;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -160,7 +160,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 718;
+                    <?php $image_id = 68;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -177,7 +177,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 717;
+                    <?php $image_id = 67;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -194,7 +194,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 716;
+                    <?php $image_id = 66;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -209,7 +209,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 715;
+                    <?php $image_id = 65;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -222,7 +222,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 714;
+                    <?php $image_id = 64;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -240,7 +240,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 713;
+                    <?php $image_id = 63;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -253,7 +253,7 @@ get_header();
             </li>
             <li class="flex md:flex-row flex-col md:items-center gap-3 md:basis-1/3 flex-1 basis-full">
                 <figure class="md:mx-0 mx-auto md:w-[100px] w-[80px] md:h-full shrink-0">
-                    <?php $image_id = 712;
+                    <?php $image_id = 62;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -493,7 +493,7 @@ get_header();
                 </p>
             </div>
             <figure class="w-full">
-                <?php $image_id = 722;
+                <?php $image_id = 72;
                 echo wp_get_attachment_image($image_id, "large", false, [
                     "loading" => "lazy",
                     "class" => "image-contain",
@@ -512,7 +512,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('4PNUsD8wv3U', this)">
-                            <?php $image_id = 833;
+                            <?php $image_id = 136;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -533,7 +533,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('XG60ORmjJYk', this)">
-                            <?php $image_id = 832;
+                            <?php $image_id = 135;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -554,7 +554,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('sQ3_JpUO2P4', this)">
-                            <?php $image_id = 831;
+                            <?php $image_id = 134;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -575,7 +575,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('9hjymVDqeNU', this)">
-                            <?php $image_id = 830;
+                            <?php $image_id = 133;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -596,7 +596,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('fxXH5f8OU54', this)">
-                            <?php $image_id = 829;
+                            <?php $image_id = 132;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -617,7 +617,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('DlXhXljDdeA', this)">
-                            <?php $image_id = 828;
+                            <?php $image_id = 131;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -636,7 +636,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('8uoMwhkLkO8', this)">
-                            <?php $image_id = 827;
+                            <?php $image_id = 130;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -657,7 +657,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('r3lsEUzFQTc', this)">
-                            <?php $image_id = 826;
+                            <?php $image_id = 125;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -678,7 +678,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('MgC36CskSjc', this)">
-                            <?php $image_id = 825;
+                            <?php $image_id = 126;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -699,7 +699,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('SncUi8m4FPY', this)">
-                            <?php $image_id = 824;
+                            <?php $image_id = 129;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -720,7 +720,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('qQioifbq0i8', this)">
-                            <?php $image_id = 823;
+                            <?php $image_id = 127;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -741,7 +741,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('P5MMUt8djMI', this)">
-                            <?php $image_id = 822;
+                            <?php $image_id = 128;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -762,7 +762,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('VHBY_Fq2Lts', this)">
-                            <?php $image_id = 821;
+                            <?php $image_id = 124;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -783,7 +783,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('G5bN5O6eTbk', this)">
-                            <?php $image_id = 820;
+                            <?php $image_id = 123;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -804,7 +804,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('w2s4y2dFv10', this)">
-                            <?php $image_id = 819;
+                            <?php $image_id = 122;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -825,7 +825,7 @@ get_header();
                 <li class="lg:basis-1/4 md:basis-1/3 sm:basis-1/2 basis-full px-2.5 py-4">
                     <div class="w-full aspect-square mb-3 bg-gray-100">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('30raNV_3G9I', this)">
-                            <?php $image_id = 818;
+                            <?php $image_id = 121;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -854,7 +854,7 @@ get_header();
 
             <div class="flex flex-wrap md:gap-0 gap-3">
                 <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 731;
+                    <?php $image_id = 81;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -862,7 +862,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 730;
+                    <?php $image_id = 80;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -870,7 +870,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 729;
+                    <?php $image_id = 79;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -878,7 +878,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 728;
+                    <?php $image_id = 78;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -886,7 +886,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 727;
+                    <?php $image_id = 77;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -894,7 +894,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 726;
+                    <?php $image_id = 76;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -902,7 +902,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 725;
+                    <?php $image_id = 75;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -910,7 +910,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 724;
+                    <?php $image_id = 74;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -918,7 +918,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 723;
+                    <?php $image_id = 73;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -936,7 +936,7 @@ get_header();
 
             <div class="flex flex-wrap md:gap-0 gap-3">
                 <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 735;
+                    <?php $image_id = 85;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -944,7 +944,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 734;
+                    <?php $image_id = 84;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -952,7 +952,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 733;
+                    <?php $image_id = 82;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -970,7 +970,7 @@ get_header();
 
             <div class="flex flex-wrap md:gap-0 gap-3">
                 <figure class="md:basis-4/5 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 732;
+                    <?php $image_id = 83;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -988,7 +988,7 @@ get_header();
 
             <div class="flex flex-wrap md:gap-0 gap-3">
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 741;
+                    <?php $image_id = 90;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -996,7 +996,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 740;
+                    <?php $image_id = 89;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1004,7 +1004,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 739;
+                    <?php $image_id = 88;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1012,7 +1012,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 738;
+                    <?php $image_id = 144;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1020,7 +1020,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 737;
+                    <?php $image_id = 87;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1028,7 +1028,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 736;
+                    <?php $image_id = 86;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1046,7 +1046,7 @@ get_header();
 
             <div class="flex flex-wrap md:gap-0 gap-3">
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 745;
+                    <?php $image_id = 94;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1054,7 +1054,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 744;
+                    <?php $image_id = 92;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1062,7 +1062,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 743;
+                    <?php $image_id = 93;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1070,7 +1070,7 @@ get_header();
                     <figcaption class="sr-only"><?php echo wp_get_attachment_caption($image_id); ?></figcaption>
                 </figure>
                 <figure class="md:basis-1/2 basis-full md:px-3 md:py-5 mx-auto">
-                    <?php $image_id = 742;
+                    <?php $image_id = 91;
                     echo wp_get_attachment_image($image_id, "large", false, [
                         "loading" => "lazy",
                         "class" => "image-contain",
@@ -1100,7 +1100,7 @@ get_header();
 
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Allan_Filipowicz')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 752;
+                        <?php $image_id = 101;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1112,7 +1112,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Barbara_Mink')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 749;
+                        <?php $image_id = 98;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1124,7 +1124,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Justin_Johnson')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 750;
+                        <?php $image_id = 99;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1136,7 +1136,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Glen_Dowell')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 748;
+                        <?php $image_id = 97;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1148,7 +1148,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Risa_Mish')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 747;
+                        <?php $image_id = 96;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1161,7 +1161,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Derek_Cabrerra')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 746;
+                        <?php $image_id = 95;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1173,7 +1173,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Gautam_Ahuja')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 751;
+                        <?php $image_id = 100;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1185,7 +1185,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Karan_Girotra')" class="cursor-pointer bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 753;
+                        <?php $image_id = 102;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1225,7 +1225,7 @@ get_header();
             <div class="slick-slider-2 section-x relative z-0">
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Jamie_Anderson')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 515;
+                        <?php $image_id = 49;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1237,7 +1237,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Anton_Musgrave')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 516;
+                        <?php $image_id = 48;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1249,7 +1249,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Olivier_Tabatoni')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 517;
+                        <?php $image_id = 47;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1261,7 +1261,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Mike_Grandinetti')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 518;
+                        <?php $image_id = 46;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1273,7 +1273,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Edward_Rogers')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 754;
+                        <?php $image_id = 103;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1285,7 +1285,7 @@ get_header();
                 </div>
                 <div class="md:px-6 px-8 h-full">
                     <figure onclick="showModal('Medini_Singh')" class="cursor-pointer group bg-light-gray aspect-square mb-3 w-full overflow-hidden group">
-                        <?php $image_id = 514;
+                        <?php $image_id = 50;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover group-hover:scale-105 transition-all",
@@ -1311,7 +1311,7 @@ get_header();
                 <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('VOUd2sUvS2I', this)">
-                            <?php $image_id = 790;
+                            <?php $image_id = 119;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -1331,7 +1331,7 @@ get_header();
                 <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('j5lgy9-hd-M', this)">
-                            <?php $image_id = 771;
+                            <?php $image_id = 118;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -1351,7 +1351,7 @@ get_header();
                 <div class="flex items-center md:flex-row md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('nVFLVjvYznI', this)">
-                            <?php $image_id = 770;
+                            <?php $image_id = 117;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -1371,7 +1371,7 @@ get_header();
                 <div class="flex items-center md:flex-row-reverse md:py-8 py-5 flex-col-reverse md:gap-10">
                     <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                         <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('HDbNTcPFHko', this)">
-                            <?php $image_id = 769;
+                            <?php $image_id = 116;
                             echo wp_get_attachment_image($image_id, "large", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover border",
@@ -1410,7 +1410,7 @@ get_header();
         <div>
             <h2 class="text-center">Certificate</h2>
             <figure class="mx-auto md:w-1/2 w-11/12 h-full relative z-0">
-                <?php $image_id = 755;
+                <?php $image_id = 104;
                 echo wp_get_attachment_image($image_id, "large", false, [
                     "loading" => "lazy",
                     "class" => "image-contain",
@@ -1435,7 +1435,7 @@ get_header();
             <div class="flex items-center md:flex-row-reverse flex-col-reverse md:gap-10">
                 <div class="aspect-video h-full w-full bg-gray-100 flex-1">
                     <figure class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('CgYotlupVNI', this)">
-                        <?php $image_id = 768;
+                        <?php $image_id = 115;
                         echo wp_get_attachment_image($image_id, "large", false, [
                             "loading" => "lazy",
                             "class" => "image-cover border",
@@ -1536,7 +1536,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 764;
+                            <?php $image_id = 113;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1556,7 +1556,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 763;
+                            <?php $image_id = 112;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1576,7 +1576,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 762;
+                            <?php $image_id = 111;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1596,7 +1596,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 761;
+                            <?php $image_id = 110;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1616,7 +1616,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 760;
+                            <?php $image_id = 109;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1636,7 +1636,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 759;
+                            <?php $image_id = 108;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1656,7 +1656,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 758;
+                            <?php $image_id = 107;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1676,7 +1676,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 757;
+                            <?php $image_id = 106;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1696,7 +1696,7 @@ get_header();
                 <div class="md:px-3 px-6 h-full md:h-[522px]">
                     <div class="md:p-5 p-4 text-center bg-gray-100 h-full">
                         <figure class="aspect-square mx-auto rounded-full mb-3 w-1/3 overflow-hidden">
-                            <?php $image_id = 756;
+                            <?php $image_id = 105;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-cover",
@@ -1725,7 +1725,7 @@ get_header();
                 <ul class="list-none p-0 text-left">
                     <li class="flex items-center gap-2">
                         <figure class="aspect-square size-9 shrink-0">
-                            <?php $image_id = 765;
+                            <?php $image_id = 114;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain",
@@ -1735,7 +1735,7 @@ get_header();
                     </li>
                     <li class="flex items-center gap-2">
                         <figure class="aspect-square size-9 shrink-0">
-                            <?php $image_id = 765;
+                            <?php $image_id = 114;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain",
@@ -1745,7 +1745,7 @@ get_header();
                     </li>
                     <li class="flex items-center gap-2">
                         <figure class="aspect-square size-9 shrink-0">
-                            <?php $image_id = 765;
+                            <?php $image_id = 114;
                             echo wp_get_attachment_image($image_id, "medium", false, [
                                 "loading" => "lazy",
                                 "class" => "image-contain",
@@ -1776,7 +1776,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 754;
+                        <?php $image_id = 103;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1808,7 +1808,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 514;
+                        <?php $image_id = 50;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1839,7 +1839,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 517;
+                        <?php $image_id = 47;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1870,7 +1870,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 515;
+                        <?php $image_id = 49;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1901,7 +1901,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 518;
+                        <?php $image_id = 46;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1932,7 +1932,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 516;
+                        <?php $image_id = 48;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1967,7 +1967,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 752;
+                        <?php $image_id = 101;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -1999,7 +1999,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 753;
+                        <?php $image_id = 102;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -2031,7 +2031,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 746;
+                        <?php $image_id = 95;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -2062,7 +2062,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 747;
+                        <?php $image_id = 96;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -2093,7 +2093,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 748;
+                        <?php $image_id = 97;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -2124,7 +2124,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 749;
+                        <?php $image_id = 98;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -2155,7 +2155,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 750;
+                        <?php $image_id = 99;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
@@ -2186,7 +2186,7 @@ get_header();
             <div class="flex md:flex-row flex-col md:gap-10 gap-5">
                 <div class="basis-1/3">
                     <figure class="aspect-square w-full">
-                        <?php $image_id = 751;
+                        <?php $image_id = 100;
                         echo wp_get_attachment_image($image_id, "medium", false, [
                             "loading" => "lazy",
                             "class" => "image-cover",
