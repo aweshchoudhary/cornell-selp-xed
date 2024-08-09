@@ -154,12 +154,17 @@ function my_custom_funcs()
         }
 
 
-        function lazyLoadVideo(videoId, triggerRef) {
-            if (!videoId || !triggerRef) return;
+        function lazyLoadVideo(videoURLOrID, triggerRef, other_video = false) {
+            if (!videoURLOrID || !triggerRef) return;
 
-            const videoEle = `
-            <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay class="w-full h-full"></iframe>
-            `;
+            let videoEle;
+            if (other_video) {
+                videoEle = `<video loading="lazy" autoplay class="image-cover" src="${videoURLOrID}" controls playsinline></video>`
+            } else {
+                videoEle = `
+                <iframe src="https://www.youtube.com/embed/${videoURLOrID}?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay class="w-full h-full"></iframe>
+                `;
+            }
 
             triggerRef.style.display = "none";
             triggerRef.insertAdjacentHTML("afterend", videoEle);

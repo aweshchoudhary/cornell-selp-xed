@@ -504,6 +504,29 @@ get_header();
     </section>
     <section>
         <div>
+            <h2 class="text-center">Experience the Pit Crew Challenge @ Cornell NY Campus</h2>
+            <p>Discover the Pit Crew Challenge—an immersive, hands-on experience created to take your teamwork and leadership acumen to the next level. Immerse yourself in the fast-paced world of stock car pit crews with our Pit Crew Challenge module at Cornell’s New York Campus. This unique, high-adrenaline exercise shifts the paradigm from traditional team building by breaking down silos, enhancing collaboration, and building a mindset of continuous improvement. Join iconic facilitators of the Pit Crew Challenge transform you and your peers into a pit crew for a day as you unlock the secrets to high performing teams and exceptional collaboration.</p>
+
+            <div class="md:w-4/5 mx-auto aspect-video mb-3 bg-gray-100">
+                <div class="relative cursor-pointer group h-full w-full" onclick="lazyLoadVideo('https://cornell.selp.xedinstitute.org/wp-content/uploads/2024/08/Bob-Parker-Pit-Crew-Challenge-4801.mp4', this, true)">
+                    <?php $image_id = 185;
+                    echo wp_get_attachment_image($image_id, "large", false, [
+                        "loading" => "lazy",
+                        "class" => "image-cover border",
+                    ]); ?>
+                    <div class="play-btn-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="md:text-3xl sm:text-2xl text-2xl" width="1em" height="1em" viewBox="0 0 256 256">
+                            <path fill="currentColor" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                        </svg>
+                    </div>
+                    </figure>
+
+                </div>
+
+            </div>
+    </section>
+    <section>
+        <div>
             <h2 class="text-center">
                 Hear from our Participants
             </h2>
